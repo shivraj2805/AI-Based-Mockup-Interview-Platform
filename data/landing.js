@@ -129,7 +129,7 @@ export const creatorsData = [
       "I focused on creating an intuitive and engaging user experience to make interview prep seamless and stress-free.",
   },
   {
-    name: "Aditya Deshmukh",
+    name: "Sanket ",
     role: "AI Engineer",
     image: "https://randomuser.me/api/portraits/men/79.jpg",
     quote:
