@@ -85,7 +85,7 @@ export const howItWorksData = [
   },
 ];
 
-// Testimonials Data
+// Testimonials Data (6 entries)
 export const testimonialsData = [
   {
     name: "Sarah Johnson",
@@ -108,31 +108,52 @@ export const testimonialsData = [
     quote:
       "I love the real-time feedback feature. It helped me improve my answers and presentation skills.",
   },
+  {
+    name: "David Patel",
+    role: "Project Manager",
+    image: "https://randomuser.me/api/portraits/men/80.jpg",
+    quote:
+      "A must-have tool for anyone preparing for interviews. The AI-driven feedback is top-notch!",
+  },
+  {
+    name: "Jessica Lee",
+    role: "HR Specialist",
+    image: "https://randomuser.me/api/portraits/women/73.jpg",
+    quote:
+      "The multiple interview formats helped me practice various scenarios, making me more confident.",
+  },
+  {
+    name: "Raj Malhotra",
+    role: "Software Developer",
+    image: "https://randomuser.me/api/portraits/men/81.jpg",
+    quote:
+      "The mock interview recording feature allowed me to track my progress and improve with each session!",
+  },
 ];
 
-//creators 
+// Removed Creators Data
 
-// Creators Data
-export const creatorsData = [
+
+// Frequently Asked Questions (FAQ) Data
+export const faqData = [
   {
-    name: "Shivraj Darekar",
-    role: "Software Engineer",
-    image: "https://randomuser.me/api/portraits/men/76.jpg",
-    quote:
-      "Building this platform was an amazing journey! It’s designed to help candidates ace their interviews with AI-driven insights.",
+    question: "How does the AI feedback work?",
+    answer: "Our AI analyzes your responses in real-time, providing insights on content, tone, and delivery to help you improve.",
   },
   {
-    name: "Nilesh Verma",
-    role: "UI/UX Designer",
-    image: "https://randomuser.me/api/portraits/men/78.jpg",
-    quote:
-      "I focused on creating an intuitive and engaging user experience to make interview prep seamless and stress-free.",
+    question: "Are the mock interviews tailored to my industry?",
+    answer: "Yes! You can select your industry and job role to receive personalized interview questions.",
   },
   {
-    name: "Sanket ",
-    role: "AI Engineer",
-    image: "https://randomuser.me/api/portraits/men/79.jpg",
-    quote:
-      "I developed the AI models behind the mock interviews, ensuring personalized and insightful feedback for every user.",
+    question: "Can I review my past mock interviews?",
+    answer: "Absolutely! You can access and review all your past interview recordings and feedback to track your progress.",
+  },
+  {
+    question: "Is there a free trial available?",
+    answer: "Yes, we offer a free trial that lets you experience our AI-powered mock interviews before subscribing.",
+  },
+  {
+    question: "What devices can I use for mock interviews?",
+    answer: "You can take mock interviews on any device with a camera and microphone, including desktops, laptops, and mobile devices.",
   },
 ];

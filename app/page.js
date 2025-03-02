@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import HeaderLand from "./dashboard/_components/HeaderLand";
 import Image from "next/image";
 import Link from "next/link";
-import { creatorsData, featuresData, howItWorksData, statsData, testimonialsData } from "@/data/landing";
+import { faqData, featuresData, howItWorksData, statsData, testimonialsData } from "@/data/landing";
 import { Card, CardContent } from "@/components/ui/card";
 import HeroSection from "@/components/hero";
 
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Meet the Creators */}
+        {/*       Meet the Creators
         <section className="py-20 bg-blue-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">Meet the Creators</h2>
@@ -122,7 +122,22 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
+
+         {/* FAQ Section */}
+         {/* <section className="py-20">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {faqData.map((faq, index) => (
+                <div key={index} className="border p-4 rounded-lg shadow-sm">
+                  <h3 className="font-semibold">{faq.question}</h3>
+                  <p className="text-gray-600 mt-2">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section> */}
 
         {/* Call to Action */}
         <section className="py-20 bg-blue-600">
@@ -141,10 +156,19 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
+        {/* Floating CTA Button */}
+        {/* <Link href="/dashboard">
+          <Button className="fixed bottom-6 right-6 bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700">
+            🚀 Start Now
+          </Button>
+        </Link> */}
+
+        {/* Improved Footer */}
         <footer className="bg-blue-50 py-12">
           <div className="container mx-auto text-center px-4 text-gray-600">
             <p>&copy; {new Date().getFullYear()} AI Mock Interviews. All rights reserved.</p>
+            <p>Created by <span className="font-semibold">Shivraj</span></p>
+            <p className="text-sm mt-2">Built with ❤️ and passion to help job seekers succeed.</p>
           </div>
         </footer>
       </div>
